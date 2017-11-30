@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  color: #868e96; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem; } }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40; }
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem; }
+
+h2 {
+  font-size: 3.5rem; }
+
+.subheading {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem; }
+
+.list-social-icons a {
+  color: #495057; }
+  .list-social-icons a:hover {
+    color: #B2355C; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #B2355C; }
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.p_contactme {
+  margin-bottom: 30px !important; }
+
+.list-social-icons {
+  text-align: center; }
+
+#diana {
+  text-decoration: none;
+  margin: 30px  0 !important;
+  color: white;
+  background: #B2355C;
+  padding: 2% 2%;
+  border-radius: 5px; }
+
+.tittles {
+  text-decoration: underline;
+  text-decoration-color: #B2355C; }
+
+.diana_logo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4em;
+  font-weight: d; }
+
+/* Gradient transparent - color - transparent */
+.mySkills {
+  padding-top: 4%;
+  margin: 0% 0;
+  position: relative;
+  bottom: 0; }
+
+#skills {
+  padding: 0px  auto !important; }
+
+#about {
+  background: url("../img/Diana/13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #about p {
+    color: black;
+    font-weight: 2em; }
+
+.resume-content {
+  margin: 15% 0%; }
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default; }
+  .hovereffect:hover .overlay {
+    opacity: 1; }
+  .hovereffect a.info {
+    font-size: 20px;
+    color: white;
+    font-family: "Inconsolata", sans-serif;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out; }
+  .hovereffect h2 {
+    font-family: 'Varela Round', sans-serif !important;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "LubalinGraphStdBook", sans-serif; }
+  .hovereffect .overlay {
+    width: 77%;
+    height: 95%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    /* left: 5%; */
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.2s 0.4s ease-in-out;
+    transition: all 0.2s 0.4s ease-in-out; }
+  .hovereffect img {
+    margin: 4% 0%;
+    height: 250px;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+
+.appdescktop {
+  height: 430px;
+  width: 77%;
+  margin-left: 11.5%; }
+
+.profileMe {
+  border: none;
+  background-image: url(../img/Diana/4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 245px;
+  margin: 0% auto; }
+  .profileMe:hover {
+    box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2); }
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto; }
+      #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; } }
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+.bg-primary {
+  background-color: #B2355C !important; }
+
+.text-primary {
+  color: #B2355C !important; }
+
+.list-group-item {
+  border: 0px solid rgba(0, 0, 0, 0.125) !important; }
+
+a {
+  color: #B2355C; }
+  a:hover, a:focus, a:active {
+    color: #77233e; }
+
+/*# sourceMappingURL=resume.css.map */
